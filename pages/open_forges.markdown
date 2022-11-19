@@ -1,5 +1,5 @@
 ---
-title: Open Forges \& Classes
+title: Open Forges & Classes
 layout: page
 ---
 
