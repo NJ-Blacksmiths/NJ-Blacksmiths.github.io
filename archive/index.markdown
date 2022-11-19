@@ -29,6 +29,7 @@ layout: page
 
 
 
+
 # Newsletter Archive
 
 ## Larry Brown, Editor
@@ -60,6 +61,7 @@ Most recent newsletter: [Volume {{newest_volume}}, Issue {{newest_issue}}]({{new
 		{% endfor %}
 	{% endfor %}
 	{% unless any_issue %}
+		<!-- If there aren't any issues for this volume, skip it -->
 		{% break %}
 	{% endunless %}
 	<tr>
@@ -76,6 +78,5 @@ Most recent newsletter: [Volume {{newest_volume}}, Issue {{newest_issue}}]({{new
 		</td>
 	{% endfor %}
 	</tr>
-
 {% endfor %}
 </table>
